@@ -10,7 +10,7 @@
 
 .header a {
     text-decoration: none;
-    color: var();
+    color: yellowgreen;
     padding-right: 2rem;
     font-size: 1.125rem;
 }
@@ -22,5 +22,5 @@
 .header span {
     font-size: 1.5rem;
     font-weight: bold;
-    color:blue
+    
 }
