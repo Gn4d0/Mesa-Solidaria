@@ -1,7 +1,8 @@
-import Footer from "../../componentes/Footer/footer"
-import Header from "../../componentes/Header/header"
+import Home from './Home.css'
+import Footer from "../../componentes/Footer/footer.jsx"
+import Header from "../../componentes/Header/header.jsx"
 
-function Home () {
+function Home() {
   return(
     <>
     <Header/>
