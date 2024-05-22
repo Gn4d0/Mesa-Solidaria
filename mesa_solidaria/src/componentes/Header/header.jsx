@@ -11,7 +11,7 @@ function Header() {
         <a href="">Carrinho</a>
       </nav>
     </header>
-  );
+  )
 }
 
 export default Header;

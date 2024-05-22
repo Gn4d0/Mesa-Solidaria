@@ -1,8 +1,8 @@
-import styles from "./Footer.css"
+import styles from "./Footer.css";
 
 function Footer() {
   return (
-    <footer class={styles.footer}>
+    <footer className={styles.footer}>
       <nav>
         <a href="">Home</a>
         <a href="">Seja Parceiro</a>
@@ -10,7 +10,7 @@ function Footer() {
         <span>2024 todos os direitos reservados</span>
       </nav>
     </footer>
-  );
+  )
 }
 
 export default Footer;
