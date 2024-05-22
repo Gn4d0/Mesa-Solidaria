@@ -1,4 +1,3 @@
-import styles from "./Home.css"
 import Footer from "../../componentes/Footer/footer"
 import Header from "../../componentes/Header/header"
 
