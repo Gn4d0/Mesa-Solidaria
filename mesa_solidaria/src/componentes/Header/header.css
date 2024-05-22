@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.header a {
+    text-decoration: none;
+    color: var();
+    padding-right: 2rem;
+    font-size: 1.125rem;
+}
+
+.header a:hover {
+    color:red
+}
+
+.header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:blue
+}
