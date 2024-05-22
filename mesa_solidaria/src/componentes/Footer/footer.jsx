@@ -1,8 +1,8 @@
-import Style from "./Footer.css"
+import styles from "./Footer.css"
 
 function Footer() {
   return (
-    <footer class={Style.footer}>
+    <footer class={styles.footer}>
       <nav>
         <a href="">Home</a>
         <a href="">Seja Parceiro</a>

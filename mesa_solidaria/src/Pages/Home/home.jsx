@@ -1,4 +1,4 @@
-import Home from './Home.css'
+import styles from './Home.css'
 import Footer from "../../componentes/Footer/footer.jsx"
 import Header from "../../componentes/Header/header.jsx"
 
