@@ -11,5 +11,5 @@ function Home () {
   )
 }
 
-exporte default Home
+export default Home
 
