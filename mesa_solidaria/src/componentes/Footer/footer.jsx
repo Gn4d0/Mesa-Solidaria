@@ -1,8 +1,8 @@
 import styles from "./Footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles["rodape"]}>
       <nav>
         <a href="">Home</a>
         <a href="">Seja Parceiro</a>

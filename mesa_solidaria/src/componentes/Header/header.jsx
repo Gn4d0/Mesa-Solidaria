@@ -1,8 +1,8 @@
 import styles from "./Header.css";
 
-function Header() {
+const Header = () =>  {
   return (
-    <header className={styles.header}>
+    <header className={styles["cabecalho"]}>
       <span> Mesa Solidária </span>
       <nav>
         <a href="">Home</a>
