@@ -1,0 +1,21 @@
+.cabeca{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color:brown;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+
+};
+
+.cabeca.criar{
+    display: flex;
+    
+}
+
+.cabeca.entrar{
+    display: flex;
+}
+

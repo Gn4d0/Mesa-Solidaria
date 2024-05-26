@@ -1,14 +1,15 @@
-import styles from "./Footer.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className={styles["rodape"]}>
-      <nav>
-        <a href="">Home</a>
-        <a href="">Seja Parceiro</a>
-        <a href="">Contatos</a>
-        <span>2024 todos os direitos reservados</span>
-      </nav>
+    <footer className={"rodape"}>
+      <div className="icones">
+        <img></img>
+        <img></img>
+        <img></img>
+        <h3>2024 todos os direitos reservados</h3>
+
+      </div>
     </footer>
   )
 }

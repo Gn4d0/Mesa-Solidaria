@@ -7,7 +7,8 @@ import Home from "./routes/Home/home.jsx";
 import Cadastro from "./routes/Cadastro/Cadastro.jsx";
 import Carrinho from "./routes/Carrinho/carrinho.jsx";
 import Produtos from "./routes/Produtos/produtos.jsx";
-import App from "./App.jsx";
+import Login from "./routes/Login/Login.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,9 @@ const router = createBrowserRouter([
   },
   {
     path:"produtos", element: <Produtos />,
+  },
+  {
+    path:"login", element: <Login />
   }
 
 ]);

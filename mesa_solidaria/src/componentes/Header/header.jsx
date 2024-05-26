@@ -1,17 +1,28 @@
-import styles from "./Header.css";
+import '/src/componentes/Header/cabe.css'
+import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
-const Header = () =>  {
+
+
+const Header = () => {
   return (
-    <header className={styles["cabecalho"]}>
-      <span> Mesa Solidária </span>
-      <nav>
-        <a href="">Home</a>
-        <a href="">Cadastro</a>
-        <a href="">Produtos</a>
-        <a href="">Carrinho</a>
-      </nav>
-    </header>
-  )
-}
+    <div>
+      <header className={"cabeca"}>
+        <Link to="/">
+          <span>
+            <img src=""></img>
+          </span>
+        </Link>
+        <nav>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/cadastro">Cadastro</NavLink>
+          <NavLink to="/produtos">Produtos</NavLink>
+        </nav>
+        <button className="criar">Criar Conta</button>
+        <button className="Entrar">Entrar</button>
+      </header>
+    </div>
+  );
+};
 
 export default Header;

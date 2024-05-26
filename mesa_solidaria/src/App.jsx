@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>React Router</h1>
       <p>NavBar</p>
-      <Outlet />
+      
       <p>Footer</p>
       
     </div>
