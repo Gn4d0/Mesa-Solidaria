@@ -1,7 +1,6 @@
 import Header from "../../componentes/Header/header";
 import "./login.css";
 
-
 const Login = () => {
   return (
     <>
@@ -12,11 +11,11 @@ const Login = () => {
             <img>
               <h1>Sua empresa pede</h1>
               <h2>
-                Com o Mercado Solidário, você conecta sua loja a milhões de novos clientes,
-                expande sua área de entrega e vende muito mais. O Mercado Solidário também
-                investe muito em marketing, o que atrai cada vez mais clientes
-                para a plataforma e, consequentemente, muito mais vendas para as
-                lojas parceiras.
+                Com o Mercado Solidário, você conecta sua loja a milhões de
+                novos clientes, expande sua área de entrega e vende muito mais.
+                O Mercado Solidário também investe muito em marketing, o que
+                atrai cada vez mais clientes para a plataforma e,
+                consequentemente, muito mais vendas para as lojas parceiras.
               </h2>
               <span>Comece agora a revolução do seu negocio</span>
             </img>

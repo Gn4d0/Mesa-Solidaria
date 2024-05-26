@@ -1,7 +1,7 @@
-import'./Home.css'
+import "./Home.css";
 import React from "react";
 import Header from "../../componentes/Header/header";
-import Footer from '../../componentes/Footer/footer';
+import Footer from "../../componentes/Footer/footer";
 
 const Home = () => {
   return (
@@ -14,9 +14,9 @@ const Home = () => {
             Acessível a todos, graça à nossa parceria com comércios locais!
           </h2>
           <button>Promoções</button>
-          <svg>
-            <img></img>
-          </svg>
+          <div className={"circun"}>
+            <img src="\src\assets\img\image.png"></img>
+          </div>
         </div>
 
         <div className={"parceiros"}>
@@ -30,13 +30,13 @@ const Home = () => {
         </div>
 
         <div className={"carrosel"}>
-          <img src="\src\assets\img\sardinha.png" ></img>
+          <img src="\src\assets\img\sardinha.png"></img>
           <h3>Sardinha Coqueiro</h3>
           <button>Adicionar</button>
           <img src="\src\assets\img\bolacha.png"></img>
           <h3>Bolacha</h3>
           <button>Adicionar</button>
-          <img src="\src\assets\img\aguasanitaria.png" ></img>
+          <img src="\src\assets\img\aguasanitaria.png"></img>
           <h3>Água Sanitária</h3>
           <button>Adicionar</button>
         </div>
@@ -51,9 +51,7 @@ const Home = () => {
           <p>Bruna Leal</p>
         </div>
       </div>
-      <Footer />  
-
-      
+      <Footer />
     </>
   );
 };

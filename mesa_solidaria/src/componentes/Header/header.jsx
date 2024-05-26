@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-
     <nav className={"navbar"}>
       <container>
         <Link to="/">
@@ -27,13 +26,6 @@ const Header = () => {
         <button>Entrar</button>
       </div>
     </nav>
-
-
-    
-
-
-
-
   );
 };
 
