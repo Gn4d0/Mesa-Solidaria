@@ -12,8 +12,8 @@
 
 }
 
-.inpu{
+
+.conteudo{
     display: flex;
-    align-items: flex-end;
-    border-radius: 80%;
+    align-items: center;
 }
