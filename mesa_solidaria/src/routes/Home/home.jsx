@@ -30,15 +30,15 @@ const Home = () => {
         </div>
 
         <div className={"carrosel"}>
-          <img></img>
+          <img src="\src\assets\img\sardinha.png" ></img>
           <h3>Sardinha Coqueiro</h3>
           <button>Adicionar</button>
-          <img></img>
+          <img src="\src\assets\img\bolacha.png"></img>
           <h3>Bolacha</h3>
           <button>Adicionar</button>
-          <img></img>
+          <img src="\src\assets\img\aguasanitaria.png" ></img>
           <h3>Água Sanitária</h3>
-          <buton>Adicionar</buton>
+          <button>Adicionar</button>
         </div>
 
         <div className={"comentario"}>

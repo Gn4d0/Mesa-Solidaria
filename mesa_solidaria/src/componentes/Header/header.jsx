@@ -1,27 +1,39 @@
-import '/src/componentes/Header/cabe.css'
+import "/src/componentes/Header/cabe.css";
 import { Link } from "react-router-dom";
-import { NavLink } from 'react-router-dom';
-
-
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>
-      <header className={"cabeca"}>
+
+    <nav className={"navbar"}>
+      <container>
         <Link to="/">
-          <span>
-            <img src=""></img>
-          </span>
+          <img src="\src\assets\img\logo.png"></img>
         </Link>
-        <nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/cadastro">Cadastro</NavLink>
-          <NavLink to="/produtos">Produtos</NavLink>
-        </nav>
-        <button className="criar">Criar Conta</button>
-        <button className="Entrar">Entrar</button>
-      </header>
-    </div>
+        <ul className={"list"}>
+          <li className={"item"}>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li className={"item"}>
+            <NavLink to="/cadastro">Cadastro</NavLink>
+          </li>
+          <li className={"item"}>
+            <NavLink to="/produtos">Produtos</NavLink>
+          </li>
+        </ul>
+      </container>
+      <div>
+        <button>Criar Conta</button>
+        <button>Entrar</button>
+      </div>
+    </nav>
+
+
+    
+
+
+
+
   );
 };
 

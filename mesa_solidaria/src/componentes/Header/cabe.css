@@ -1,21 +1,23 @@
-.cabeca{
-    width: 100%;
-    height: 50px;
+.navbar{
+    display:flex;
+    justify-content: space-between;
     background-color: blue;
-    color:brown;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-
-
-};
-
-.cabeca.criar{
-    display: flex;
+    padding: 1em;
     
+
 }
 
-.cabeca.entrar{
+.list{
     display: flex;
+    list-style: none;
+    align-items: center;
 }
 
+.item a{
+    color:#fff;               
+    text-decoration: none;      
+}
+
+.item a:hover{
+    color:yellow;
+}

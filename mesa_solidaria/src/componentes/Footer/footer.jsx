@@ -1,16 +1,17 @@
+import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className={"rodape"}>
-      <div className="icones">
-        <img></img>
-        <img></img>
-        <img></img>
-        <h3>2024 todos os direitos reservados</h3>
-
-      </div>
+    <footer>
+      <ul className={"social_list"}>
+        <li><FaFacebook/></li>
+        <li><FaInstagram/></li>
+        <li><FaWhatsapp/></li>
+      </ul>
+      <p>2024 todos os direitos reservados</p>
     </footer>
+    
   )
 }
 
