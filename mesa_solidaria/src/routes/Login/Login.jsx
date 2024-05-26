@@ -1,3 +1,6 @@
+import { FaUser, FaLock } from "react-icons/fa";
+
+import Footer from "../../componentes/Footer/footer";
 import Header from "../../componentes/Header/header";
 import "./login.css";
 
@@ -5,36 +8,47 @@ const Login = () => {
   return (
     <>
       <Header />
-      <div className={["miolo"]}>
-        <div>
-          <svg>
-            <img>
-              <h1>Sua empresa pede</h1>
-              <h2>
-                Com o Mercado Solidário, você conecta sua loja a milhões de
-                novos clientes, expande sua área de entrega e vende muito mais.
-                O Mercado Solidário também investe muito em marketing, o que
-                atrai cada vez mais clientes para a plataforma e,
-                consequentemente, muito mais vendas para as lojas parceiras.
-              </h2>
-              <span>Comece agora a revolução do seu negocio</span>
-            </img>
-          </svg>
-        </div>
-
-        <div className={["caixalogin"]}>
-          <h1>Login</h1>
-          <form>E-mail ou Cnpj</form>
-          <form>Passowrd</form>
-          <link>Esqueci minha senha</link>
-          <buton>Loguin</buton>
-          <link>Não tenho conta? cadastre-se</link>
-          <span>
-            Ao continuar, você concorda em receber comunicações com ofertas.
-            Confira nossa Declaraçao de Privacidade
-          </span>
+      <div className={"backg"}>
+        <div className={"circunferencia"}>
+          <img src="\src\assets\img\image.png"></img>
         </div>
       </div>
+
+      <div className="conteudo">
+        <form>
+          <h1>Login</h1>
+          
+          <div>
+            <input type="email" placeholder="E-mail ou CNPJ" />
+            <FaUser className="icon" />
+          </div>
+          
+          <div>
+            <input type="password" placeholder="Password" />
+            <FaLock className="icon" />
+          </div>
+
+          <div className={"recall"}></div>
+            <label>
+              <input type="checkbox " />
+              Lembre de mim
+
+            </label>
+            <a href = "#">Esqueceu a senha?</a>
+
+          
+
+          <button>Entrar</button>
+
+          <div className="signup-link">
+            <p>Não tem uma conta? <a href="#">Registrar</a></p>
+          </div>
+          <p>Ao continuar, você concorda em receber comunicações com ofertas. Confira nossa Declaraçao de Privacidade 
+</p>
+        </form>
+      </div>
+
+      <Footer />
     </>
   );
 };
