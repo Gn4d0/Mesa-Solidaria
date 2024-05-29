@@ -3,8 +3,9 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  background-color: blue;
-}
+  background-color: #0047AB;
+  color: #fff;
+};
 
 .social_list {
   margin: 0 1em;
@@ -13,4 +14,8 @@
 .social_list {
   font-size: 1.5em;
   cursor: pointer;
-}
+  
+};
+
+
+

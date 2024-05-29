@@ -6,17 +6,18 @@ const Header = () => {
   return (
     <nav className={"navbar"}>
       <container>
+        <nav className={"navbar"}></nav>
         <Link to="/">
           <img src="\src\assets\img\logo.png"></img>
         </Link>
         <ul className={"list"}>
-          <li className={"item"}>
+          <li>
             <NavLink to="/">Home</NavLink>
           </li>
-          <li className={"item"}>
+          <li>
             <NavLink to="/cadastro">Cadastro</NavLink>
           </li>
-          <li className={"item"}>
+          <li>
             <NavLink to="/produtos">Produtos</NavLink>
           </li>
         </ul>

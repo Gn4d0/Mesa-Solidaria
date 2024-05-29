@@ -8,8 +8,9 @@ const Footer = () => {
         <li><FaFacebook/></li>
         <li><FaInstagram/></li>
         <li><FaWhatsapp/></li>
+        <p>2024 todos os direitos reservados</p>
       </ul>
-      <p>2024 todos os direitos reservados</p>
+      
     </footer>
     
   )

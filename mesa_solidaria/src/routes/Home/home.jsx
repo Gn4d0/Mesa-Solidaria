@@ -8,13 +8,12 @@ const Home = () => {
     <>
       <Header />
       <div>
-        <div className={"promo"}>
+        <div className={"textoimg"}>
           <h1>Onde a economia encontra qualidade</h1>
           <h2>
             Acessível a todos, graça à nossa parceria com comércios locais!
           </h2>
-          <button>Promoções</button>
-          <div className={"circun"}>
+          <div>
             <img src="\src\assets\img\image.png"></img>
           </div>
         </div>
