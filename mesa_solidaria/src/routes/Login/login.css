@@ -1,0 +1,19 @@
+.backg{
+    width: 100%;
+    height: 50px;
+    background-color: darkgray
+};
+
+.circunferencia{
+    background:lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.conteudo{
+    display: flex;
+    align-items: center;
+}
