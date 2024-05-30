@@ -4,7 +4,7 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/Home/home.jsx";
-import Cadastro from "./routes/Cadastro/Cadastro.jsx";
+import Cadastro from "./routes/Cadastro/cadastro.jsx";
 import Carrinho from "./routes/Carrinho/carrinho.jsx";
 import Produtos from "./routes/Produtos/produtos.jsx";
 import Login from "./routes/Login/Login.jsx";
