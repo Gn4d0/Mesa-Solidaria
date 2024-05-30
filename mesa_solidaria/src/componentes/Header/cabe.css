@@ -1,27 +1,80 @@
-.navbar {
-  justify-content: space-between;
-  background-color: #0047AB;
-  padding: 1em;
+.logotipo {
+  width: 10vw;
+}
+
+.logotipoENome {
+  width: 40vw;
+
+  text-decoration: none;
+
   display: flex;
-};
-
-
-.list li {
-  list-style: none;
   align-items: center;
-  color:#fff
 
-};
+  gap: 1vw;
+}
+
+.nomeProjeto {
+  color: #fff;
+}
+
+.header {
+  width: 100vw;
+
+  background-color: #0047ab;
+  padding: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  & > div:first-of-type {
+    width: 70vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  & > .botoes {
+    display: flex;
+    gap: 2vw;
+
+    & > button {
+      cursor: pointer;
+      background-color: white;
+      color: #0047ab;
+      font-weight: bold;
+
+      border: none;
+      border-radius: 0.2rem;
+
+      padding: 0.5vh 1.5vw;
+
+      &:hover {
+        background-color: skyblue;
+      }
+    }
+  }
+}
+
+.list {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.list li * {
+  color: #fff;
+  text-decoration: none;
+}
 
 .item a {
   color: #fff;
   text-decoration: none;
-  
-};
+}
 
 .item a:hover {
   color: yellow;
-};
-
-
-
+}
