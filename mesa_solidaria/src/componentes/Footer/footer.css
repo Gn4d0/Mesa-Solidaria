@@ -5,10 +5,27 @@
   list-style: none;
   background-color: #0047AB;
   color: #fff;
+
+  & >  p {
+   
+    font size: 30em;
+    margin: 5px;
+    align-items: center;
+    
+    
+  
+
+
+
+  }
+
+  }
+  
 };
 
 .social_list {
   margin: 0 1em;
+  padding: 5 4em;
 }
 
 .social_list {

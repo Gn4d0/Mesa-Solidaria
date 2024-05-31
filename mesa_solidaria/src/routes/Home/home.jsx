@@ -76,15 +76,7 @@ const Home = () => {
           </ul>
         </div>
 
-        <div className={"comentario"}>
-          <h1>O que falam da gente</h1>
-          <span>Lorem</span>
-          <p>Bruna Leal</p>
-          <span>Lorem</span>
-          <p>Bruna Leal</p>
-          <span>Lorem</span>
-          <p>Bruna Leal</p>
-        </div>
+
       </div>
       <Footer />
     </>
